@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resep masakan</title>
+    <link href="bootstrapCopy/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container1 mx-auto">
+        <div class="card mb-3">
+            <img src="header.jpg" class="rounded mx-auto d-block" alt="..." width="100%" height="300px">
+            <div class="card-body">
+                <h5 class="card-title">Resep Masakan</h5>
+                <p class="card-text1">Tersedia berbagai menu dan resep makanan</p>
+            </div>
+        </div>
+    </div>
+    
+        <div class="container mb-5 mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3 shadow bg-dark">
+                        <img src="nasgor.png" class="card-img-top" alt="Nasi Goreng" style="max-width: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title" id="nasgor" style="color: white;">Nasi Goreng</h5>
+                            <p class="card-text">Nasi goreng adalah salah satu makanan khas Indonesia yang terbuat dari nasi yang digoreng bersama bumbu-bumbu tertentu.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#resepnasgor">Lihat Resep</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="card mb-3 shadow bg-dark">
+                        <img src="mie.png" class="card-img-top" alt="Mie Goreng" style="max-width: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: white;">Mie Goreng</h5>
+                            <p class="card-text">Mie goreng adalah salah satu makanan khas Indonesia yang terbuat dari mie yang digoreng bersama bumbu-bumbu tertentu.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#resepMie">Lihat Resep</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="card mb-3 shadow bg-dark">
+                        <img src="bakso.png" class="card-img-top" alt="Bakso" style="max-width: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: white;">Bakso</h5>
+                            <p class="card-text">Bakso adalah salah satu makanan favorit di Indonesia yang terbuat dari campuran daging sapi giling dan tepung tapioka, kemudian direbus.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#resepBakso">Lihat Resep</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="card mb-3 shadow bg-dark">
+                        <img src="soto.png" class="card-img-top" alt="Soto" style="max-width: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: white;">Soto</h5>
+                            <p class="card-text">Soto adalah salah satu makanan khas Indonesia berupa sup dengan kuah kaldu ayam atau daging sapi yang disajikan dengan tambahan ketupat atau nasi.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#resepSoto">Lihat Resep</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="modal fade" id="resepnasgor" tabindex="-1" aria-labelledby="resepnasgorLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resepModalLabel" style="color: black;">Resep Nasi Goreng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ini adalah resep Nasi Goreng:</p>
+                    <ul>
+                        <li>Langkah 1: Siapkan bahan-bahan yang diperlukan.</li>
+                        <li>Langkah 2: Panaskan minyak dalam wajan.</li>
+                        <li>Langkah 3: Tumis bawang putih, bawang merah, dan cabai hingga harum.</li>
+                        <li>Langkah 4: Tambahkan nasi dan aduk hingga merata.</li>
+                        <li>Langkah 5: Masukkan kecap manis, garam, dan merica secukupnya.</li>
+                        <li>Langkah 6: Tambahkan telur dan aduk rata hingga telur matang.</li>
+                        <li>Langkah 7: Nasi goreng siap disajikan</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="modal fade" id="resepMie" tabindex="-1" aria-labelledby="resepModalLabelMie" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resepModalLabelMie " style="color: black;">Resep Mie Goreng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ini adalah resep Mie Goreng:</p>
+                    <ul>
+                        <li>Langkah 1: Rebus mie hingga matang, lalu tiriskan.</li>
+                        <li>Langkah 2: Panaskan minyak dalam wajan.</li>
+                        <li>Langkah 3: Tumis bawang putih, bawang merah, dan cabai hingga harum.</li>
+                        <li>Langkah 4: Masukkan mie dan aduk rata dengan bumbu.</li>
+                        <li>Langkah 5: Tambahkan kecap manis dan saus sambal, aduk hingga merata.</li>
+                        <li>Langkah 6: Tambahkan telur</li>
+                        <li>Langkah 7: Mie goreng siap disajikan</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="modal fade" id="resepBakso" tabindex="-1" aria-labelledby="resepModalLabelBakso" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resepModalLabelBakso" style="color: black;">Resep Bakso</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ini adalah resep Bakso:</p>
+                    <ul>
+                        <li>Langkah 1: Siapkan daging sapi giling dan tepung tapioka.</li>
+                        <li>Langkah 2: Campurkan daging sapi giling dengan tepung tapioka hingga tercampur rata.</li>
+                        <li>Langkah 3: Bentuk adonan menjadi bulatan kecil (bakso).</li>
+                        <li>Langkah 4: Rebus bakso dalam air mendidih hingga matang.</li>
+                        <li>Langkah 5: Bakso siap disajikan</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="resepSoto" tabindex="-1" aria-labelledby="resepModalLabelSoto" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resepModalLabelSoto" style="color: black;">Resep Soto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ini adalah resep Soto:</p>
+                    <ul>
+                        <li>Langkah 1: Rebus ayam atau daging sapi hingga matang, lalu suwir-suwir.</li>
+                        <li>Langkah 2: Rebus telur hingga matang, lalu kupas dan potong-potong.</li>
+                        <li>Langkah 3: Siapkan bahan pelengkap seperti bawang goreng, koya, dan sambal.</li>
+                        <li>Langkah 4: Siapkan kuah soto dengan menggunakan kaldu dari rebusan ayam atau daging sapi, tambahkan bumbu-bumbu seperti bawang putih, merica, dan garam.</li>
+                        <li>Langkah 5: Penyajian: Letakkan mie kuning, potongan suwiran daging, telur, dan pelengkap di atas mangkuk, lalu tuangkan kuah soto panas.</li>
+                        <li>Langkah 6: Soto siap disajikan</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="nama">
+        <p>Alfin Zulfan | 23.230.0020</p>
+    </div>
+     
+      
+
+
+      
+    
+
+
+    <script src="bootstrapCopy/js/bootstrap.min.js"></script>
+   
+  </body>
+  <style>
+  </style>
+</html>
